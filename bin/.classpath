@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="target/test-classes/com/ta/seleniumtest/login/|target/test-classes/com/ta/seleniumtest/login/" kind="src" path=""/>
+	<classpathentry kind="src" path="target/test-classes/com/ta/seleniumtest/login"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

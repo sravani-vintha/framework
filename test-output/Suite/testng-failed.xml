@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="20" parallel="classes" name="Test5(failed)">
+    <classes>
+      <class name="com.ta.seleniumtest.login.signuptoxdc">
+        <methods>
+          <include name="signUpTestCase"/>
+          <include name="triggerDependency"/>
+          <include name="launch"/>
+          <include name="closingTest"/>
+          <include name="loadDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ta.seleniumtest.login.signuptoxdc -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="20" parallel="classes" name="Test6(failed)">
+    <classes>
+      <class name="com.ta.seleniumtest.login.Signup">
+        <methods>
+          <include name="launch"/>
+          <include name="triggerDependency"/>
+          <include name="closingTest"/>
+          <include name="signUp" invocation-numbers="0"/>
+          <include name="loadDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ta.seleniumtest.login.Signup -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="20" parallel="classes" name="Test7(failed)">
+    <classes>
+      <class name="com.ta.seleniumtest.login.Test_alltabs">
+        <methods>
+          <include name="loginToWebsite" invocation-numbers="0"/>
+          <include name="launch"/>
+          <include name="triggerDependency"/>
+          <include name="closingTest"/>
+          <include name="loadDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ta.seleniumtest.login.Test_alltabs -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="20" parallel="classes" name="Test14(failed)">
+    <classes>
+      <class name="com.ta.seleniumtest.login.Addorg_quickbookuser">
+        <methods>
+          <include name="launch"/>
+          <include name="triggerDependency"/>
+          <include name="closingTest"/>
+          <include name="loginToWebsite" invocation-numbers="0"/>
+          <include name="loadDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ta.seleniumtest.login.Addorg_quickbookuser -->
+    </classes>
+  </test> <!-- Test14(failed) -->
+</suite> <!-- Failed suite [Suite] -->
